@@ -1,0 +1,25 @@
+.home__section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    padding: 60px 0;
+    margin: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    color: #555;
+}
+
+@media(max-width: 750px) {
+    .home__section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media(max-width: 500px) {
+    .home__section {
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

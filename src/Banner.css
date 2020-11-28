@@ -1,0 +1,72 @@
+.banner {
+    /* height: 50vh; */
+    position: relative;
+    margin-top: 30px;
+    background: url("./assets/images/airbnb-ski-aspen-28328347.jpg") center center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.banner__info {
+    background-color: #000;
+    color: #fff;
+    padding: 20vh 50px 40px;
+    width: 300px;
+}
+
+.banner__info>p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.banner__info>button {
+    color: #fff;
+    text-transform: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #ff7779;
+    font-weight: 600;
+    z-index: 200 !important;
+    transition: all 250ms ease-in !important;
+}
+
+.banner__info>button:hover {
+    background-color: #fff;
+    color: #da6365;
+}
+
+.banner__search {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner__search>button {
+    color: #ff7779;
+    background-color: #fff;
+    font: inherit;
+    padding: 12px 0;
+    font-weight: 900;
+    text-transform: inherit;
+}
+
+.banner__search>button:hover {
+    background-color: #fff;
+}
+
+.banner__DatePickerContainer {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 300;
+}
+
+@media(max-width: 450px) {
+    .banner__info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
