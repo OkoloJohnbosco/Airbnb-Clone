@@ -1,11 +1,9 @@
 .banner {
-    /* height: 50vh; */
     position: relative;
     margin-top: 30px;
     background: url("./assets/images/airbnb-ski-aspen-28328347.jpg") center center;
     width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 .banner__info {
